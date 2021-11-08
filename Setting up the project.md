@@ -16,3 +16,4 @@ This installs the required dependencies
 
 To run the React project.
 $ npm start
+ then go to the readme.md file and follow the instructions
