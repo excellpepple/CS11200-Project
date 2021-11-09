@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3ce59f70d546fc199634c53cc5ea8a75",
+    "revision": "b0bbf1cf4c49089e2b11eaa93bf7ddd0",
     "url": "/HomeWorkBuddy/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/HomeWorkBuddy/static/css/2.b32ab56c.chunk.css"
   },
   {
-    "revision": "77d571803a9b0f864ac4",
+    "revision": "23826bc7505a303ad16c",
     "url": "/HomeWorkBuddy/static/css/main.435d5fe5.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/HomeWorkBuddy/static/js/3.cfad0988.chunk.js"
   },
   {
-    "revision": "77d571803a9b0f864ac4",
-    "url": "/HomeWorkBuddy/static/js/main.236deabd.chunk.js"
+    "revision": "23826bc7505a303ad16c",
+    "url": "/HomeWorkBuddy/static/js/main.5bd1af7e.chunk.js"
   },
   {
     "revision": "9916dac9de4b940697e7",
