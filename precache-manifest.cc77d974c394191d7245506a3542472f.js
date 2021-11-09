@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13eb22a0edee92bfa6e40da153f4b358",
+    "revision": "3ce59f70d546fc199634c53cc5ea8a75",
     "url": "/HomeWorkBuddy/index.html"
   },
   {
-    "revision": "039108579b9541024fa0",
+    "revision": "7427217ddd18b3b4450e",
     "url": "/HomeWorkBuddy/static/css/2.b32ab56c.chunk.css"
   },
   {
-    "revision": "cc44c3d98f715cc16a7f",
+    "revision": "77d571803a9b0f864ac4",
     "url": "/HomeWorkBuddy/static/css/main.435d5fe5.chunk.css"
   },
   {
-    "revision": "039108579b9541024fa0",
-    "url": "/HomeWorkBuddy/static/js/2.d38bf1a0.chunk.js"
+    "revision": "7427217ddd18b3b4450e",
+    "url": "/HomeWorkBuddy/static/js/2.2ca89e81.chunk.js"
   },
   {
     "revision": "4913d1980cd232cbaf7fc7f11d724c5e",
-    "url": "/HomeWorkBuddy/static/js/2.d38bf1a0.chunk.js.LICENSE.txt"
+    "url": "/HomeWorkBuddy/static/js/2.2ca89e81.chunk.js.LICENSE.txt"
   },
   {
     "revision": "3eedc53ea2ab02933e9b",
     "url": "/HomeWorkBuddy/static/js/3.cfad0988.chunk.js"
   },
   {
-    "revision": "cc44c3d98f715cc16a7f",
-    "url": "/HomeWorkBuddy/static/js/main.953825d1.chunk.js"
+    "revision": "77d571803a9b0f864ac4",
+    "url": "/HomeWorkBuddy/static/js/main.236deabd.chunk.js"
   },
   {
     "revision": "9916dac9de4b940697e7",

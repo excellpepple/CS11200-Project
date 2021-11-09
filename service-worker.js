@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/HomeWorkBuddy/precache-manifest.01c9b0494a225a92a45ea0a1b980722b.js"
+  "/HomeWorkBuddy/precache-manifest.cc77d974c394191d7245506a3542472f.js"
 );
 
 self.addEventListener('message', (event) => {
