@@ -8,7 +8,7 @@ import Logo from "../logo.svg";
 export default function Header() {
     const [user, setUser] = useState('Guest')
     const [img, setImg] = useState(GuestAvatar)
-    const loggedIn = (user != 'Guest')? true: false;
+    const loggedIn = (user !== 'Guest')? true: false;
 
     const openNotification = () => {
         const msg = (!loggedIn)? {
