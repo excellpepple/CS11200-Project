@@ -5,6 +5,8 @@ import { SmileOutlined } from '@ant-design/icons';
 import GuestAvatar from "../images/guest-avatar.svg";
 import MaleAvatar from "../images/male-avatar.svg";
 import Logo from "../logo.svg";
+import {Link, NavLink} from "react-router-dom";
+
 export default function Header() {
     const [user, setUser] = useState('Guest')
     const [img, setImg] = useState(GuestAvatar)
@@ -35,7 +37,7 @@ export default function Header() {
         <>
             <Navbar className="border-3 border-bottom border-warning" bg="dark" variant="dark">
               <Container>
-                <Navbar.Brand href="/">
+                <Link className="navbar-brand" to="/">
                     <img
                         src={Logo}
                         width="30"
@@ -44,11 +46,11 @@ export default function Header() {
                         alt="React Bootstrap logo"
                       />
                     The Home-Work Buddy
-                </Navbar.Brand><div className="vr bg-info"/>
+                </Link><div className="vr bg-info"/>
                 <Navbar.Toggle />
                 <Nav className="me-auto">
-                  <Nav.Link href="/classes">Classes</Nav.Link>
-                  <Nav.Link href="/planner">Planner</Nav.Link>
+                  <NavLink className="nav-link" to="/classes">Classes</NavLink>
+                  <NavLink className="nav-link" to="/planner">Planner</NavLink>
                 </Nav>
                 <Navbar.Collapse className="justify-content-end">
                   <Navbar.Text>
