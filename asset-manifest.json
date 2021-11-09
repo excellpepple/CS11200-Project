@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/HomeWorkBuddy/static/css/main.435d5fe5.chunk.css",
-    "main.js": "/HomeWorkBuddy/static/js/main.5bd1af7e.chunk.js",
-    "main.js.map": "/HomeWorkBuddy/static/js/main.5bd1af7e.chunk.js.map",
+    "main.js": "/HomeWorkBuddy/static/js/main.0afa1d2c.chunk.js",
+    "main.js.map": "/HomeWorkBuddy/static/js/main.0afa1d2c.chunk.js.map",
     "runtime-main.js": "/HomeWorkBuddy/static/js/runtime-main.da81f953.js",
     "runtime-main.js.map": "/HomeWorkBuddy/static/js/runtime-main.da81f953.js.map",
     "static/css/2.b32ab56c.chunk.css": "/HomeWorkBuddy/static/css/2.b32ab56c.chunk.css",
-    "static/js/2.2ca89e81.chunk.js": "/HomeWorkBuddy/static/js/2.2ca89e81.chunk.js",
-    "static/js/2.2ca89e81.chunk.js.map": "/HomeWorkBuddy/static/js/2.2ca89e81.chunk.js.map",
+    "static/js/2.ad5e31e2.chunk.js": "/HomeWorkBuddy/static/js/2.ad5e31e2.chunk.js",
+    "static/js/2.ad5e31e2.chunk.js.map": "/HomeWorkBuddy/static/js/2.ad5e31e2.chunk.js.map",
     "static/js/3.cfad0988.chunk.js": "/HomeWorkBuddy/static/js/3.cfad0988.chunk.js",
     "static/js/3.cfad0988.chunk.js.map": "/HomeWorkBuddy/static/js/3.cfad0988.chunk.js.map",
     "index.html": "/HomeWorkBuddy/index.html",
-    "precache-manifest.f00b4d6f8a3247265cf34d0761a1c31c.js": "/HomeWorkBuddy/precache-manifest.f00b4d6f8a3247265cf34d0761a1c31c.js",
+    "precache-manifest.973a49ce7215035a1c7623a3e655177f.js": "/HomeWorkBuddy/precache-manifest.973a49ce7215035a1c7623a3e655177f.js",
     "service-worker.js": "/HomeWorkBuddy/service-worker.js",
     "static/css/2.b32ab56c.chunk.css.map": "/HomeWorkBuddy/static/css/2.b32ab56c.chunk.css.map",
     "static/css/main.435d5fe5.chunk.css.map": "/HomeWorkBuddy/static/css/main.435d5fe5.chunk.css.map",
-    "static/js/2.2ca89e81.chunk.js.LICENSE.txt": "/HomeWorkBuddy/static/js/2.2ca89e81.chunk.js.LICENSE.txt",
+    "static/js/2.ad5e31e2.chunk.js.LICENSE.txt": "/HomeWorkBuddy/static/js/2.ad5e31e2.chunk.js.LICENSE.txt",
     "static/media/Logo.svg": "/HomeWorkBuddy/static/media/Logo.ee27d968.svg",
     "static/media/PageUnderConstruction.svg": "/HomeWorkBuddy/static/media/PageUnderConstruction.211bdbba.svg",
     "static/media/class-pic.svg": "/HomeWorkBuddy/static/media/class-pic.fa978bc3.svg",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.da81f953.js",
     "static/css/2.b32ab56c.chunk.css",
-    "static/js/2.2ca89e81.chunk.js",
+    "static/js/2.ad5e31e2.chunk.js",
     "static/css/main.435d5fe5.chunk.css",
-    "static/js/main.5bd1af7e.chunk.js"
+    "static/js/main.0afa1d2c.chunk.js"
   ]
 }
