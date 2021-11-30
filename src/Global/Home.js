@@ -17,7 +17,7 @@ import Demo from "./Demo";
 export default function Home() {
 
     return (
-        <BrowserRouter basename='/HomeWorkBuddy/'>
+        <BrowserRouter basename='/'>
             <Header />
             <main>
                 <Routes>

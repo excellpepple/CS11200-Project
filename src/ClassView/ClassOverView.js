@@ -4,8 +4,9 @@ import {Button, Image} from "react-bootstrap";
 import {BugOutlined} from "@ant-design/icons";
 import {Link, useParams} from "react-router-dom";
 import Construction from "../Global/Construction";
+import TabManager from "./TabManager";
 export default function Overview() {
-    const active = false;
+    const active = true;
     const { course } = useParams();
     return (
         <>
@@ -14,7 +15,7 @@ export default function Overview() {
                 onBack={() => null}
                 title={course}
                 subTitle="Class Overview"              />
-            {(!active)? (<Construction/>): <h1> test</h1>}
+            {(!active)? (<Construction/>): (<TabManager/>)}
         </>
     );
 }

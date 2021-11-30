@@ -35,7 +35,7 @@ export default function Header() {
 
     return (
         <>
-            <Navbar className="border-3 border-bottom border-warning" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="md" className="border-3 border-bottom border-warning" bg="dark" variant="dark">
               <Container>
                 <Link className="navbar-brand" to="/">
                     <img
@@ -46,16 +46,19 @@ export default function Header() {
                         alt="React Bootstrap logo"
                       />
                     The Home-Work Buddy
-                </Link><div className="vr bg-info"/>
-                <Navbar.Toggle />
-                <Nav className="me-auto">
-                  <NavLink className="nav-link" to="/classes">Classes</NavLink>
-                  <NavLink className="nav-link" to="/planner">Planner</NavLink>
-                </Nav>
-                <Navbar.Collapse className="justify-content-end">
-                  <Navbar.Text>
-                    Signed in as: <div className="hr .d-none .d-sm-block .d-md-none"/><a className="ms-3" href="#login" onClick={handleLogin}> <Avatar className="border border-info mx-1" src={img}/> <span className="mx-auto ">{user}</span></a>
+
+                </Link><div className="me-auto vr bg-info"/>
+                <Navbar.Toggle aria-controls="nav-content"/>
+
+                <Navbar.Collapse className="justify-content-end" id="nav-content">
+                    <Nav className="me-auto">
+                      <NavLink className="nav-link" to="/classes">Classes</NavLink>
+                      <NavLink className="nav-link" to="/planner">Planner</NavLink>
+                    </Nav>
+                  <Navbar.Text className="ms-auto">
+                    Signed in as: <div className="hr d-none d-sm-block d-md-none"/><a className="ms-3" href="#login" onClick={handleLogin}> <Avatar className="border border-info mx-1" src={img}/> <span className="mx-auto ">{user}</span></a>
                   </Navbar.Text>
+
                 </Navbar.Collapse>
               </Container>
             </Navbar>

@@ -1,8 +1,10 @@
 import React, {useState, useEffect} from 'react';
 import {Button, Card, Placeholder, Stack} from "react-bootstrap";
 import ClassPic from "../images/class-pic.svg"
-import {PageHeader} from "antd";
+import {yellow} from "@ant-design/colors";
+import {Avatar, PageHeader, Button as Ant_button} from "antd";
 import {Link} from "react-router-dom";
+import {PlusCircleFilled, PlusOutlined, PlusSquareOutlined} from "@ant-design/icons";
 
 function ClassItem(props){
     return(
@@ -28,6 +30,8 @@ export default function ClassList() {
         {id:3, title:'Calc', assignments: [], projects: []},
         {id:4, title:'Biology', assignments: [], projects: []},
     ])
+    
+
 
     return (
         <>
@@ -39,6 +43,9 @@ export default function ClassList() {
           <Stack direction="horizontal" gap={5} className="container col-md-12 m-5 ">
               {classes.map((subject) => <ClassItem title={subject.title} id={subject.id}/>)}
           </Stack>
+            <div className="container-fluid justify-content-end">
+                <PlusOutlined className="btn btn-outline-warning rounded-3 align-content-end" style={{Color: yellow-4}}/>
+            </div>
         </>
     );
 }
