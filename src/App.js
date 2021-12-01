@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,9 +10,9 @@ function App() {
     document.title = 'The Home-Work Buddy'
 
   return (
-    <>
+    <div>
         <Home />
-    </>
+    </div>
   );
 }
 

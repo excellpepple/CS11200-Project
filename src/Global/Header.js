@@ -5,10 +5,12 @@ import { SmileOutlined } from '@ant-design/icons';
 import GuestAvatar from "../images/guest-avatar.svg";
 import MaleAvatar from "../images/male-avatar.svg";
 import Logo from "../logo.svg";
+import {Link, NavLink} from "react-router-dom";
+
 export default function Header() {
     const [user, setUser] = useState('Guest')
     const [img, setImg] = useState(GuestAvatar)
-    const loggedIn = (user != 'Guest')? true: false;
+    const loggedIn = (user !== 'Guest')? true: false;
 
     const openNotification = () => {
         const msg = (!loggedIn)? {
@@ -33,9 +35,9 @@ export default function Header() {
 
     return (
         <>
-            <Navbar className="border-3 border-bottom border-warning" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="md" className="border-3 border-bottom border-warning" bg="dark" variant="dark">
               <Container>
-                <Navbar.Brand href="/">
+                <Link className="navbar-brand" to="/">
                     <img
                         src={Logo}
                         width="30"
@@ -44,16 +46,19 @@ export default function Header() {
                         alt="React Bootstrap logo"
                       />
                     The Home-Work Buddy
-                </Navbar.Brand><div className="vr bg-info"/>
-                <Navbar.Toggle />
-                <Nav className="me-auto">
-                  <Nav.Link href="/classes">Classes</Nav.Link>
-                  <Nav.Link href="/planner">Planner</Nav.Link>
-                </Nav>
-                <Navbar.Collapse className="justify-content-end">
-                  <Navbar.Text>
-                    Signed in as: <div className="hr .d-none .d-sm-block .d-md-none"/><a className="ms-3" href="#login" onClick={handleLogin}> <Avatar className="border border-info mx-1" src={img}/> <span className="mx-auto ">{user}</span></a>
+
+                </Link><div className="me-auto vr bg-info"/>
+                <Navbar.Toggle aria-controls="nav-content"/>
+
+                <Navbar.Collapse className="justify-content-end" id="nav-content">
+                    <Nav className="me-auto">
+                      <NavLink className="nav-link" to="/classes">Classes</NavLink>
+                      <NavLink className="nav-link" to="/planner">Planner</NavLink>
+                    </Nav>
+                  <Navbar.Text className="ms-auto">
+                    Signed in as: <div className="hr d-none d-sm-block d-md-none"/><a className="ms-3" href="#login" onClick={handleLogin}> <Avatar className="border border-info mx-1" src={img}/> <span className="mx-auto ">{user}</span></a>
                   </Navbar.Text>
+
                 </Navbar.Collapse>
               </Container>
             </Navbar>
