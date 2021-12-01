@@ -69,6 +69,8 @@ export default function Planner() {
     const [planVisible, setPlanVisible] = useState(false)
     const [data, setData] = useState([])
     const [newValue, setNewValue] = useState('')
+    const navigate = useNavigate();
+
     const showPlan = (value) =>{
         setPlanVisible(true);
         setData(getListData(value));
@@ -89,7 +91,7 @@ export default function Planner() {
         <>
             <PageHeader
                 className="site-page-header border-2 border-bottom"
-                onBack={() => null}
+                onBack={() => navigate(-1)}
                 title="My Planner "
                 subTitle="Take a look at your schedule and watch out for upcoming deadlines."
 

@@ -11,7 +11,7 @@ import Overview from "./Overview";
 import HomeWorkTab from "./HomeWorkTab";
 import ProjectsTab from "./ProjectsTab";
 const { TabPane } = Tabs;
-export default function TabManager() {
+export default function TabManager(props) {
     const greeting = 'Hello Function Component!';
 
     return (
@@ -37,7 +37,7 @@ export default function TabManager() {
                   }
                   key="1"
                 >
-                 <HomeWorkTab/>
+                 <HomeWorkTab course={props.course}/>
                 </TabPane>
                 <TabPane
                   tab={
@@ -48,7 +48,7 @@ export default function TabManager() {
                   }
                   key="2"
                 >
-                  <ProjectsTab/>
+                  <ProjectsTab course={props.course}/>
                 </TabPane>
           </Tabs>
         </>
